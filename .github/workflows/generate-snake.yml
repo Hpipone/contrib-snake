@@ -24,5 +24,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
 
-      - name: Debugging
-        run: echo "Debugging: ${{ toJson(github) }}"
